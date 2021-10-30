@@ -1,0 +1,50 @@
+[
+	{
+		"id": "101",
+		"title": "Cox’s Bazar",
+		"description": "Spilling out into the Bay of Bengal is Cox’s Bazar, an area covered in salty fishing skiffs and bustling jetties.This little town in the far south-east of Bangladesh is known for its stunning beach which stretches for an amazing 120 kilometers from north to south along the side of the balmy Indian Ocean. This is the third longest beach on the planet and you will find local fishermen reeling in the day’s catch as well as bubbling rock pools and crashing turquoise waves that make this a great spot for surfing.",
+		"duration": "4 Aays & 5 Night",
+		"price": "750",
+		"image": "https://techhossain.github.io/tour-resources/image/place-4.jpg"
+	},
+	{
+		"id": "102",
+		"title": "The Sundarbans",
+		"description": "The Sundarbans are located at the point where the mighty waterways of the Brahmaputra and the scared Gange's crash into each other at the edge of the Bay of Bengal. As you would expect, the area is also covered in spectacular wildlife and is a UNESCO World Heritage Site. Here you will find Bengal tigers stalking the mangroves as well as rhesus macaques swinging in the canopies. Other highlights include chitals and you will also find local huts dotted around the area and hiding beneath waxy palm trees.",
+		"duration": "4 Aays & 5 Night",
+		"price": "550",
+		"image": "https://techhossain.github.io/tour-resources/image/place-7.jpg"
+	},
+	{
+		"id": "103",
+		"title": "Srimangal",
+		"description": "Srimangal is the tea-growing capital of Bangladesh and the area is a riot of different hues of green. The area is famous for its rains which help the tea to grow and you will find a sea of different plantations here as you explore the highlands and the hamlets that makeup Srimangal. On a trip here make sure to visit a local tea processing plant which will usually include a trip to a tasting house so that you can enjoy a cup of fragrant tea whilst enjoying the views over the rippling fields. Hiking is also popular in the area although the undulating landscapes mean that some hikes are more challenging than others.",
+		"duration": "3 Aays & 4 Night",
+		"price": "450",
+		"image": "https://techhossain.github.io/tour-resources/image/place-1.jpg"
+	},
+	{
+		"id": "104",
+		"title": "Chittagong",
+		"description": "Chittagong has a population of 2.5 million which is nothing when you compare it to other cities like Dhaka. That said, this frenetic port town is still worth a visit, particularly if you are traveling to the beautiful Hill Tracts of Bangladesh. These gorgeous trails that include pretty Foy’s Lake are hidden along scenic valleys and Chittagong is widely considered to be the jumping-off point if you are planning a trek. In the city proper, you will find Chittagong Ship Breaking Yard where you can see hulking tankers being ripped apart, and other spots of interest include the shrine of Sufi Amanat Khan, one of the most revered saints in Bangladesh.",
+		"duration": "2 Aays & 3 Night",
+		"price": "350",
+		"image": "https://techhossain.github.io/tour-resources/image/place-2.jpg"
+	},
+	{
+		"id": "105",
+		"title": "Rangamati",
+		"description": "Set amongst the beautiful Chittagong Hill Tracts is the delightful mountain town of Rangamati which is a serene and peaceful alternative to many of Bangladesh’s frantic cities. The town sits on the banks of Kaptai Lake which is known for its blue and green waters as well as the woodlands that surround it. Small, colorfully painted boats bob on the surface of the lake and if you are lucky then you may see an Asian elephant strolled along the riverbank. The main draw here is the hiking and wildlife excursions as well as the golden statue of Buddha Dhatu Jadi. Other top spots to visit also include the Parjatan Hanging Bridge and the regal palaces of the old Chakma Raj.",
+		"duration": "3 Aays & 4 Night",
+		"price": "450",
+		"image": "https://techhossain.github.io/tour-resources/image/place-3.jpg"
+	},
+	{
+		"id": "106",
+		"title": "Bandaran",
+		"description": "Surrounded by the Muranja, Wayla, and Chimbook mountains that rise to nearly 1,000 meters above sea level is the stunning town of Bandaran. The area is covered in misty green and is home to tobacco farms and hilltop lookouts and there is also a lively bazaar where you will find arts and crafts from the Shan tribes from Myanmar across the border. Other reasons to come here include lazy bamboo boat rides along the majestic River Sangu as well as the mighty Nilgiri Hill and the crashing waters of the Jadipai Waterfall.",
+		"duration": "2 Aays & 3 Night",
+		"price": "350",
+		"image": "https://techhossain.github.io/tour-resources/image/place-4.jpg"
+	}
+]
