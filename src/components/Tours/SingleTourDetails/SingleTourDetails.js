@@ -5,23 +5,16 @@ import { NavLink } from 'react-router-dom';
 const SingleTourDetails = () => {
 
   const { id } = useParams('id');
-
-  const [tours, setsTours] = useState([]);
   const [singleTour, setSingleTour] = useState({});
 
   useEffect(() => {
-    fetch('/toursDetails.json')
+    fetch(`https://possessed-ghost-59800.herokuapp.com/tours/${id}`)
       .then(res => res.json())
       .then(data => {
-        setsTours(data.tours);
-        console.log(data.tours);
+        setSingleTour(data);
+        console.log(data)
       })
   }, []);
-
-  useEffect(() => {
-    const tourDetails = tours.find(tour => tour.id === id);
-    setSingleTour(tourDetails);
-  }, [tours])
 
   return (
     <div className="container mt-5">
@@ -34,7 +27,7 @@ const SingleTourDetails = () => {
           <div className="col-md-6">
             <div className="card-body">
               <h5 className="card-title">{singleTour?.title}</h5>
-              <p className="fw-bold m-0">Budget: $ {singleTour?.price}/ person</p>
+              <p className="fw-bold m-0">Budget: $ {singleTour?.budget}/ person</p>
               <p className="fw-bold m-0">Duration: <small>{singleTour?.duration}</small></p>
               <p className="card-text">{singleTour?.description}</p>
 

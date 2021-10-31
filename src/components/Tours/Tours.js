@@ -11,7 +11,7 @@ const Tours = () => {
       <h2 className="text-center my-5">OUR TOUR PACKAGES</h2>
       <div className="row">
         {
-          tours.map(tour => <SingleTour key={tour.id} tour={tour}></SingleTour>)
+          tours.map(tour => <SingleTour key={tour._id} tour={tour}></SingleTour>)
         }
       </div>
     </div>

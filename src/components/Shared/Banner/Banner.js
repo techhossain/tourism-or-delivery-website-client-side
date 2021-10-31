@@ -13,8 +13,8 @@ const Banner = () => {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h2>Let us plan your trip</h2>
-            <p>We have set tour program /packages and we also customize tour packages according to your choice.</p>
+            <h2 className="text-light">Let us plan your trip</h2>
+            <p className="text-light">We have set tour program /packages and we also customize tour packages according to your choice.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -24,8 +24,8 @@ const Banner = () => {
             alt="Second slide"
           />
           <Carousel.Caption>
-            <h2>Second slide label</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h2 className="text-light">An Unforgotable Journey</h2>
+            <p className="text-light">Be with nature and feel the nature.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -35,8 +35,8 @@ const Banner = () => {
             alt="Third slide"
           />
           <Carousel.Caption>
-            <h2>Third slide label</h2>
-            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            <h2 className="text-light">Best Tour Planner in Bangladesh</h2>
+            <p className="text-light">Book your favourite Hotel & Resort in Bangladesh with us.</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

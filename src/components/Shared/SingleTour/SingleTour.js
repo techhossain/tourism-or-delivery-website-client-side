@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 
 const SingleTour = (props) => {
 
-  const { id, title, description, image, duration, price } = props.tour;
+  const { _id, title, description, image, duration, price } = props.tour;
   return (
     <div className="col-md-6">
       <div className="card mb-3">
@@ -17,7 +17,7 @@ const SingleTour = (props) => {
               <p className="fw-bold m-0">Budget: $ {price}/ person</p>
               <p className="fw-bold m-0">Duration: <small>{duration}</small></p>
               <p className="card-text">{description.slice(0, 100)}</p>
-              <NavLink className="btn btn-success" to={`/tours/${id}`}>View Details</NavLink>
+              <NavLink className="btn btn-success" to={`/tours/${_id}`}>View Details</NavLink>
 
             </div>
           </div>

@@ -46,7 +46,7 @@ const Register = () => {
         </div>
 
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">Email address</label>
+          <label htmlFor="password" className="form-label">Password</label>
 
           <input type="password" className="form-control" {...register("password", { required: true, pattern: /^(?=.*?[A-Z])(?=(.*[a-z]){1,})(?=(.*[\d]){1,})(?=(.*[\W]){1,})(?!.*\s).{6,}$/ })} />
 

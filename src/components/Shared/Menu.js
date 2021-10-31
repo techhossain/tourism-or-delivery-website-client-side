@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import useAuth from '../../hooks/useAuth';
 
 const Menu = () => {
@@ -16,14 +17,15 @@ const Menu = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link as={Link} to="/">Home</Nav.Link>
-              {/* <Nav.Link as={Link} to="/services">Services</Nav.Link> */}
+              <Nav.Link as={HashLink} to="/home#contact">Contact Us</Nav.Link>
               <Nav.Link as={Link} to="/tours">Tour Packages</Nav.Link>
               {
                 user.email ?
                   <NavDropdown title="Pro Features" id="basic-nav-dropdown">
-                    <NavDropdown.Item as={Link} to="/my-orders">My Orders</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/manage-all-orders">Manage All Orders</NavDropdown.Item>
-                    <NavDropdown.Item as={Link} to="/add-new">Add A New Service</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/orders">My Orders</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/manage-orders">Manage Orders</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/manage-tours">Manage All Tours</NavDropdown.Item>
+                    <NavDropdown.Item as={Link} to="/add-new">Add A New Tour</NavDropdown.Item>
                   </NavDropdown>
                   :
                   ""

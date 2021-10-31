@@ -5,12 +5,12 @@ const useTours = () => {
   const [tours, setTours] = useState([]);
 
   useEffect(() => {
-    fetch('./tours.json')
+    fetch('https://possessed-ghost-59800.herokuapp.com/tours')
       .then(res => res.json())
       .then(data => setTours(data))
   }, []);
 
-  return [tours];
+  return [tours, setTours];
 }
 export default useTours;
 

@@ -5,9 +5,13 @@ import './App.css';
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import NotFound from './components/NotFound/NotFound';
+import AddNew from './components/Private/AddNew/AddNew';
+import ManageOrders from './components/Private/ManageOrders/ManageOrders';
+import ManageTours from './components/Private/ManageTours/ManageTours';
+import Orders from './components/Private/Orders/Orders';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Register from './components/Register/Register';
-import Services from './components/Services/Services';
+import Footer from './components/Shared/Footer/Footer';
 import Menu from './components/Shared/Menu';
 import SingleTour from './components/Shared/SingleTour/SingleTour';
 import BookTour from './components/Tours/BookTour/BookTour';
@@ -41,25 +45,20 @@ function App() {
             <BookTour></BookTour>
           </PrivateRoute>
 
+          <Route path="/add-new">
+            <AddNew></AddNew>
+          </Route>
 
-
-
-          {/* <PrivateRoute path="/tours/:id">
-            <SingleTourDetails></SingleTourDetails>
-          </PrivateRoute> */}
-
-
-
-          <PrivateRoute path="/add-new">
-            <Services></Services>
+          <PrivateRoute path="/orders">
+            <Orders></Orders>
           </PrivateRoute>
 
-          <PrivateRoute path="/my-orders">
-            <Services></Services>
+          <PrivateRoute path="/manage-orders">
+            <ManageOrders></ManageOrders>
           </PrivateRoute>
 
-          <PrivateRoute path="/manage-all-orders">
-            <Services></Services>
+          <PrivateRoute path="/manage-tours">
+            <ManageTours></ManageTours>
           </PrivateRoute>
 
           <Route path="/login">
@@ -75,6 +74,7 @@ function App() {
           </Route>
 
         </Switch>
+        <Footer></Footer>
 
       </Router>
     </AuthProvider>

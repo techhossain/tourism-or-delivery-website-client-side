@@ -74,7 +74,7 @@ const Login = () => {
           {errors.password && <span className="text-danger">Password field is required</span>}
         </div>
 
-        <input type="submit" name="Login" />
+        <input className="btn btn-primary" type="submit" name="Login" />
       </form>
       <p className="text-center">New User? <Link to="/register">Register Now</Link></p>
 
